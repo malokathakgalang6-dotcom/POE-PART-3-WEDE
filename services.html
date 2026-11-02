@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Explore Copperleaf Electrical's residential, commercial and industrial electrical services, repairs and maintenance.">
+    <meta name="keywords"
+        content="Copperleaf Electrical, residential electrical services, commercial electrician, industrial electrical services, electrical repairs, electrical maintenance">
+    <meta name="author" content="Copperleaf Electrical">
+
+    <title>Electrical Services | Copperleaf Electrical</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Copperleaf Electrical</h1>
+
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html" class="active" aria-current="page">Services</a>
+                <a href="enquiry.html">Make an Enquiry</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Page introduction -->
+        <section class="page-banner">
+            <h2>Our Electrical Services</h2>
+            <p>Reliable electrical solutions for homes and businesses.</p>
+        </section>
+
+        <!-- Services banner image -->
+        <section class="services-banner">
+            <img src="images/copperleaf-electrical-service-collage.png" alt="Copperleaf Electrical service work and electrical solutions">
+        </section>
+
+        <!-- Service search -->
+        <section class="content-section service-search">
+            <h2>Find an Electrical Service</h2>
+
+            <p>
+                Search by service type or keyword to find the service you need.
+            </p>
+
+            <label for="serviceSearch">Search services:</label>
+
+            <input type="search" id="serviceSearch" placeholder="e.g. residential, repairs, lighting..."
+                aria-label="Search electrical services">
+
+            <button type="button" id="clearSearch">Clear Search</button>
+
+            <p id="searchMessage" aria-live="polite">
+                Showing all 4 services.
+            </p>
+        </section>
+
+        <!-- Electrical service cards -->
+        <section class="services-grid" id="servicesGrid" aria-label="Available electrical services">
+
+            <article class="service-card">
+                <img src="images/professional-electrical-services.png" alt="Residential electrical services" loading="lazy">
+
+                <h3>Residential Electrical Services</h3>
+
+                <p>
+                    Electrical solutions for homes, including lighting,
+                    wiring, installations and general electrical improvements.
+                </p>
+
+                <a href="enquiry.html">Request This Service</a>
+            </article>
+
+            <article class="service-card">
+                <img src="images/professional-electrical-services.png" alt="Commercial electrical installations" loading="lazy">
+
+                <h3>Commercial Electrical Services</h3>
+
+                <p>
+                    Electrical installations, maintenance and repairs for
+                    offices, shops and other business premises.
+                </p>
+
+                <a href="enquiry.html">Request This Service</a>
+            </article>
+
+            <article class="service-card">
+                <img src="images/copperleaf-electrical-service-collage.png" alt="Industrial electrical services" loading="lazy">
+
+                <h3>Industrial Electrical Services</h3>
+
+                <p>
+                    Electrical support for industrial environments, including
+                    installations, inspections and maintenance.
+                </p>
+
+                <a href="enquiry.html">Request This Service</a>
+            </article>
+
+            <article class="service-card">
+                <img src="images/professional-electrical-services.png" alt="Electrical repairs and maintenance" loading="lazy">
+
+                <h3>Repairs and Maintenance</h3>
+
+                <p>
+                    Assistance with electrical faults, repairs and maintenance
+                    to help keep electrical systems operating.
+                </p>
+
+                <a href="enquiry.html">Request This Service</a>
+            </article>
+
+            <p id="noServicesMessage" hidden>
+                No services found. Try another search term.
+            </p>
+
+        </section>
+
+
+        <!-- Interactive image gallery -->
+        <section class="content-section">
+            <h2>Our Electrical Work Gallery</h2>
+
+            <p>Select an image to view it in a larger format.</p>
+
+            <div class="image-gallery">
+
+                <button type="button" class="gallery-image" aria-label="View residential electrical services">
+                    <img src="images/professional-electrical-services.png" alt="Residential electrical services">
+                </button>
+
+                <button type="button" class="gallery-image" aria-label="View commercial electrical installations">
+                    <img src="images/copperleaf-electrical-service-collage.png" alt="Commercial electrical installations">
+                </button>
+
+                <button type="button" class="gallery-image" aria-label="View electrical maintenance work">
+                    <img src="images/professional-electrical-services.png" alt="Electrical installation and maintenance">
+                </button>
+
+            </div>
+        </section>
+
+
+
+        <!-- Interactive FAQ accordion -->
+        <section class="content-section faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <p>
+                Find answers to common questions about our electrical services.
+            </p>
+
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false">
+
+                    What electrical services do you offer?
+                    <span aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        We provide residential, commercial and industrial
+                        electrical services, including installations, repairs
+                        and maintenance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false">
+
+                    How can I request a quotation?
+                    <span aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Visit our Make an Enquiry page, complete the form with
+                        your details and service requirements, and submit it.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false">
+
+                    Do you provide electrical repairs?
+                    <span aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        You can enquire about electrical fault finding,
+                        repairs and maintenance through our enquiry form.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false">
+
+                    How do I contact Copperleaf Electrical?
+                    <span aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Visit our Contact Us page for the available contact
+                        information and ways to send us a message.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox for enlarged images -->
+        <dialog id="imageLightbox" aria-label="Enlarged gallery image">
+
+            <button type="button" id="closeLightbox" aria-label="Close enlarged image">
+                Close ✕
+            </button>
+
+            <img id="lightboxImage" src="" alt="">
+
+        </dialog>
+
+        <!-- Call to action -->
+        <section class="content-section">
+            <h2>Need Electrical Services?</h2>
+
+            <p>
+                Contact Copperleaf Electrical to discuss your requirements
+                or request a quotation.
+            </p>
+
+            <a href="enquiry.html" class="btn">Request a Quote</a>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Copperleaf Electrical. All rights reserved.</p>
+        <p>Professional electrical services for homes and businesses.</p>
+    </footer>
+
+</body>
+
+</html>
